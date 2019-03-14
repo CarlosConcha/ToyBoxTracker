@@ -1,0 +1,11 @@
+package com.tracking.websocket.client;
+
+import java.net.URI;
+
+public class TrackEndPoint {
+
+	public TrackEndPoint(URI uri) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

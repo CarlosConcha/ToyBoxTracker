@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.tracking.gps.NMEA.Enum.StatusEnum"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="com.tracking.gps.NMEA.GPRMC"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="com.tracking.gps.coordenadas.GradosDecimales"/>
+<fullyQualifiedTypeName name="com.tracking.gps.device.data.DataGPRMC"/>
+<fullyQualifiedTypeName name="com.tracking.gps.util.UtilParse"/>
+<fullyQualifiedTypeName name="com.tracking.gps.device.impl.DeviceParse"/>
+<fullyQualifiedTypeName name="com.tracking.gps.device.parse.AVL02Parse"/>
+<fullyQualifiedTypeName name="com.tracking.gps.device.AVL02"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="javax.xml.ws.WebServiceClient"/>
+<fullyQualifiedTypeName name="javax.websocket.ClientEndpoint"/>
+<fullyQualifiedTypeName name="javax.websocket.Session"/>
+<fullyQualifiedTypeName name="javax.websocket.MessageHandler"/>
+<fullyQualifiedTypeName name="TrackEndpoint"/>
+<fullyQualifiedTypeName name="javax.websocket.WebSocketContainer"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.ws.api.server.Container"/>
+<fullyQualifiedTypeName name="javax.websocket.ContainerProvider"/>
+<fullyQualifiedTypeName name="javax.websocket.OnMessage"/>
+<fullyQualifiedTypeName name="javax.websocket.OnClose"/>
+<fullyQualifiedTypeName name="javax.websocket.CloseReason"/>
+<fullyQualifiedTypeName name="javax.websocket.OnOpen"/>
+<fullyQualifiedTypeName name="com.tracking.websocket.client.TrackEndPoint"/>
+<fullyQualifiedTypeName name="com.tracking.websocket.client.TrackEndpoint"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.net.URI"/>
+<fullyQualifiedTypeName name="com.tracking.websocket.client.Endpoint"/>
+<fullyQualifiedTypeName name="com.tracking.websocket.client.Endpoint.MessageHandler"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,2 @@
+127.0.0.1 - - [13/Mar/2019:13:49:01 -0300] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [13/Mar/2019:13:49:01 -0300] "GET /SocketWebTest/WEB-INF/classes/com/tracking/gps/init/server.java HTTP/1.1" 404 967

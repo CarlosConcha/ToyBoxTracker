@@ -1,0 +1,31 @@
+package com.tracking.gps.init;
+
+import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.nio.ByteBuffer;
+import java.nio.channels.ServerSocketChannel;
+import java.nio.channels.SocketChannel;
+import java.nio.charset.StandardCharsets;
+
+public class Start {
+
+	public static void main(String[] args) throws IOException {
+		
+		ServerSocketChannel channel = ServerSocketChannel.open();
+		channel.socket().bind(new InetSocketAddress(1234));
+		
+		while(true) {
+			SocketChannel socket = channel.accept();
+			String response = "saludos";
+			byte[] data = response.getBytes("UTF-8");
+			ByteBuffer buffer = ByteBuffer.wrap(data);
+			
+			ByteBuffer inBuf = ByteBuffer.allocate(1024);
+			socket.read(inBuf);
+            String read = new String(inBuf.array(),StandardCharsets.UTF_8);
+            System.out.println(read);
+		}
+
+	}
+
+}

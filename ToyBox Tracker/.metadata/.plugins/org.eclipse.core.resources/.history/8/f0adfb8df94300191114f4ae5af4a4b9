@@ -1,0 +1,40 @@
+package com.tracking.gps.util;
+
+public class UtilParse {
+
+	public static Float floatParse(String parse) {
+		if (parse != null && !parse.isEmpty()) {
+			try {
+				return Float.parseFloat(parse);
+			} catch (NumberFormatException e) {
+				//TODO logger warning format
+				return null;
+			}
+		}
+		return null;
+	}
+
+	/**
+	 * Obtiene el primer char del string
+	 * @param parse
+	 * @return la primera letra del string o E = error
+	 */
+	public static char charParse(String parse) {
+		if (parse != null && !parse.isEmpty()) {
+			return parse.charAt(0);
+		}
+		return 'E';
+	}
+	
+	public static Double doubleParse(String parse) {
+		if (parse != null && !parse.isEmpty()) {
+			try {
+				return Double.parseDouble(parse);
+			} catch (NumberFormatException e) {
+				//TODO logger warning format
+				return null;
+			}
+		}
+		
+	}
+}

@@ -1,0 +1,28 @@
+import java.io.IOException;
+import java.net.URI;
+
+import javax.websocket.ClientEndpoint;
+import javax.websocket.ContainerProvider;
+import javax.websocket.DeploymentException;
+import javax.websocket.MessageHandler;
+import javax.websocket.Session;
+import javax.websocket.WebSocketContainer;
+
+import com.sun.xml.internal.ws.api.server.Container;
+
+@ClientEndpoint
+public class TrackEndpoint {
+
+	Session session = null;
+	private MessageHandler messageHandler;
+	
+	public TrackEndpoint(URI uri) {
+		try {
+			WebSocketContainer container = ContainerProvider.getWebSocketContainer();
+			container.connectToServer(this, uri);
+		} catch (DeploymentException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

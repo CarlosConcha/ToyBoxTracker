@@ -1,0 +1,14 @@
+package com.test;
+
+import org.junit.Test;
+
+import com.tracking.gps.device.AVL02;
+import com.tracking.gps.device.parse.AVL02Parse;
+
+public class DeviceParseTest {
+
+	@Test
+	public void AVL02Parse() {
+		AVL02 avl = new AVL02Parse("");
+	}
+}
